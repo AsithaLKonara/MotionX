@@ -27,7 +27,6 @@ share/python-wheels/
 MANIFEST
 
 # Virtual environments
-.env
 .venv
 env/
 venv/
@@ -37,7 +36,6 @@ venv.bak/
 
 # IDEs and Editors
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -47,3 +45,5 @@ models/
 tests/*.mp4
 *.mp4
 *.avi
+config.bat
+node_modules
