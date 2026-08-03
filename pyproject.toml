@@ -1,0 +1,27 @@
+[project]
+name = "motionx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AsithaLKonara", email = "asithalakmalkonara11992081@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "pytest>=9.1.1",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "torch<=2.2.2",
+    "typer>=0.27.0",
+    "ultralytics>=8.4.115",
+]
+
+[project.scripts]
+motionx = "motionx:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
